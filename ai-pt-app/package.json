@@ -1,0 +1,29 @@
+{
+  "name": "ai-pt-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SK하이닉스 문제해결 PT(보건) 실전 시뮬레이터 - BYOK Gemini",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/run-tests.mjs",
+    "preview": "vite preview",
+    "test:watch": "node scripts/run-tests.mjs --watch"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^27.0.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vitest": "^3.0.5"
+  }
+}
